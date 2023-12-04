@@ -4,10 +4,10 @@ const config = {
   github: {
     username: 'NoOPeEKS', // Your GitHub org/user name. (Required)
     sortBy: 'updated', // stars | updated
-    limit: 8, // How many projects to display.
+    limit: 6, // How many projects to display.
     exclude: {
       forks: true, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['battleship-tqs'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
@@ -19,33 +19,32 @@ const config = {
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'NoOPeEKS',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
     website: 'https://noopeeks.github.io',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'arnauapps@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/uc?export=download&id=1vYZG1hS9kvZTTgRDHeHInQDReGhOBnYb', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
+    'C/C++',
+    'Python',
     'PHP',
     'Laravel',
-    'JavaScript',
     'Vue.js',
+    'JavaScript',
     'React.js',
     'Node.js',
     'MySQL',
-    'PostgreSQL',
     'MongoDB',
-    'Git',
-    'Docker',
-    'CSS',
-    'Tailwind',
+    'TailwindCSS',
+    'Docker',  
   ],
   experiences: [
     {
@@ -59,7 +58,7 @@ const config = {
       company: 'Materials Per a Tancats Setpark S.L.',
       position: 'Warehouse',
       from: 'June 2020',
-      to: 'August 2022',
+      to: 'August 2021',
       companyLink: '',
     },
   ],
@@ -113,11 +112,11 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'wireframe',
+    defaultTheme: 'night',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
@@ -172,12 +171,5 @@ const config = {
     },
   },
 
-  // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
-};
 
 export default config;
