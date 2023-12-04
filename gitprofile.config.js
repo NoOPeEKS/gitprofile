@@ -2,29 +2,29 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    username: 'NoOPeEKS', // Your GitHub org/user name. (Required)
+    sortBy: 'updated', // stars | updated
+    limit: 8, // How many projects to display.
     exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
+      forks: true, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'https://www.linkedin.com/in/arnau-berenguer-jim%C3%A9nez-940683299',
+    twitter: '',
+    mastodon: '',
     facebook: '',
     instagram: '',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
     medium: 'arifszn',
-    dev: 'arifszn',
+    dev: 'NoOPeEKS',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
+    website: 'https://noopeeks.github.io',
     phone: '',
     email: 'arifulalamszn@gmail.com',
   },
@@ -36,80 +36,74 @@ const config = {
     'PHP',
     'Laravel',
     'JavaScript',
+    'Vue.js',
     'React.js',
     'Node.js',
-    'Nest.js',
     'MySQL',
     'PostgreSQL',
+    'MongoDB',
     'Git',
     'Docker',
-    'PHPUnit',
     'CSS',
-    'Antd',
     'Tailwind',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Bon Preu S.A.U',
+      position: 'Charcuterie',
+      from: 'August 2022',
+      to: 'January 2023',
+      companyLink: 'https://bonpreuesclat.cat',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Materials Per a Tancats Setpark S.L.',
+      position: 'Warehouse',
+      from: 'June 2020',
+      to: 'August 2022',
+      companyLink: '',
     },
   ],
-  /* certifications: [
+   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
+      name: 'Advanced Certificate in English C1',
+      body: 'Cambridge CEFR C1 Level',
+      year: 'June 2019',
+      link: 'https://www.cambridgeenglish.org/'
     },
-  ], */
+  ], 
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Universitat Autònoma de Barcelona',
+      degree: 'Computer Engineering Degree',
+      from: '2020',
+      to: '2025',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Academica High School',
+      degree: 'High School',
+      from: '2018',
+      to: '2020',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'LaraZillow',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'A real estate listing marketplace app based on Zillow. Created using PHP & Laravel on the backend and VueJS on the frontend.',
+      imageUrl: 'https://onesolutionsweb.com/wp-content/uploads/2021/05/langlogosArtboard-1-1.jpg',
+      link: 'https://github.com/NoOPeEKS/laravel-inertia-listing-app',
     },
     {
-      title: 'Project Name',
+      title: 'Background.rm',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'A simple web application to erase image backgrounds using Cloudinary API. Built with Svelte.',
+      imageUrl: 'https://shershen08.github.io/sveltejsnews/img/23617963.png',
+      link: 'https://background-rm.netlify.app',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many posts to display. Max is 10.
-  },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
   },
