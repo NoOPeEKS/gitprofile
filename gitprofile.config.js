@@ -11,7 +11,7 @@ const config = {
     },
   },
   social: {
-    linkedin: 'arnau-berenguer-jiménez-940683299',
+    linkedin: 'arnau-berenguer-jimenez',
     twitter: '',
     mastodon: '',
     facebook: '',
