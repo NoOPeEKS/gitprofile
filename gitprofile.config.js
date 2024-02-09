@@ -35,7 +35,6 @@ const config = {
   skills: [
     'C/C++',
     'Python',
-    'Django',
     'Java',
     'PHP',
     'Laravel',
@@ -43,7 +42,6 @@ const config = {
     'Vue.js',
     'JavaScript',
     'React.js',
-    'Node.js',
     'MySQL',
     'MongoDB',
     'TailwindCSS',
@@ -63,13 +61,6 @@ const config = {
       from: 'August 2022',
       to: 'January 2023',
       companyLink: 'https://bonpreuesclat.cat',
-    },
-    {
-      company: 'Materials Per a Tancats Setpark S.L.',
-      position: 'Warehouse',
-      from: 'June 2020',
-      to: 'August 2021',
-      companyLink: '',
     },
   ],
    certifications: [
