@@ -35,9 +35,11 @@ const config = {
   skills: [
     'C/C++',
     'Python',
+    'Django'
     'Java',
     'PHP',
     'Laravel',
+    'Go',
     'Vue.js',
     'JavaScript',
     'React.js',
@@ -48,6 +50,13 @@ const config = {
     'Docker',  
   ],
   experiences: [
+    {
+      company: 'Eurecat - Technology Research Centre',
+      position: 'Fullstack Software Engineer & Data Scientist',
+      from: 'February 2024',
+      to: 'Present',
+      companyLink: 'https://eurecat.org/',
+    },
     {
       company: 'Bon Preu S.A.U',
       position: 'Charcuterie',
