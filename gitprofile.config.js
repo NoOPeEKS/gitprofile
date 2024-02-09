@@ -35,7 +35,7 @@ const config = {
   skills: [
     'C/C++',
     'Python',
-    'Django'
+    'Django',
     'Java',
     'PHP',
     'Laravel',
