@@ -93,7 +93,7 @@ const config = {
       description:
         'A free and open-source guide for deploying a dockerized production-ready Decidim instance with automated scripts!',
       imageUrl: 'https://tecnopolitica.net/sites/default/files/styles/centered_760/public/Screenshot%202021-11-25%20at%2015-24-11%20Decidim.png?itok=GXBUZ4eS',
-      link: 'https://github.com/NoOPeEKS/decidim-deployment-guide,
+      link: 'https://github.com/NoOPeEKS/decidim-deployment-guide',
     },
     {
       title: 'LaraZillow',
