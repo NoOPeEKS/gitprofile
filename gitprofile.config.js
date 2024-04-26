@@ -30,7 +30,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/uc?export=download&id=1vYZG1hS9kvZTTgRDHeHInQDReGhOBnYb', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/uc?export=download&id=1UkTd91YTwkrp9kgRkNElKMe3fU3dz7-L', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'C/C++',
@@ -89,6 +89,13 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
+      title: 'Decidim Deployment Guide',
+      description:
+        'A free and open-source guide for deploying a dockerized production-ready Decidim instance with automated scripts!',
+      imageUrl: 'https://tecnopolitica.net/sites/default/files/styles/centered_760/public/Screenshot%202021-11-25%20at%2015-24-11%20Decidim.png?itok=GXBUZ4eS',
+      link: 'https://github.com/NoOPeEKS/decidim-deployment-guide,
+    },
+    {
       title: 'LaraZillow',
       description:
         'A real estate listing marketplace app based on Zillow. Created using PHP & Laravel on the backend and VueJS on the frontend.',
@@ -102,6 +109,7 @@ const config = {
       imageUrl: 'https://shershen08.github.io/sveltejsnews/img/23617963.png',
       link: 'https://background-rm.netlify.app',
     },
+    
   ],
   // Display blog posts from your medium or dev account. (Optional)
   googleAnalytics: {
