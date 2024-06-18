@@ -50,7 +50,7 @@ const config = {
   experiences: [
     {
       company: 'Eurecat - Technology Research Centre',
-      position: 'Fullstack Software Engineer & Data Scientist',
+      position: 'Software & Machine Learning Engineer',
       from: 'February 2024',
       to: 'Present',
       companyLink: 'https://eurecat.org/',
@@ -88,6 +88,13 @@ const config = {
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
+    {
+      title: 'DataNvim',
+      description:
+        'A fully-featured batteries-included Neovim distribution for the world of Data Science. Prepared to run code and interact with Jupyter Notebooks without ever leaving your terminal.',
+      imageUrl: 'https://static-00.iconduck.com/assets.00/apps-neovim-icon-2048x2048-21jvoi4h.png',
+      link: 'https://github.com/NoOPeEKS/DataNvim',
+    },
     {
       title: 'Decidim Deployment Guide',
       description:
